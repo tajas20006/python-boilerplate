@@ -1,0 +1,39 @@
+{
+    "define new function": {
+        "scope": "python",
+        "prefix": "def",
+        "body": [
+            "def ${1:func_name}():",
+            "    raise NotImplementedError",
+            ""
+        ],
+        "description": "create new function that raises NotImplementedError"
+    },
+    "define new test function": {
+        "scope": "python",
+        "prefix": "def test_",
+        "body": [
+            "def test_${1:func_name}():",
+            "    \"\"\"",
+            "",
+            "    Conditions:",
+            "    - ${2:テストする条件}",
+            "",
+            "    Prerequisites:",
+            "    - ${3:条件をテストするために必要な前提状況}",
+            "",
+            "    Asserts:",
+            "    - ${4:条件に対して確認する内容}",
+            "",
+            "    \"\"\"",
+            "    # Arrange",
+            "",
+            "    # Act",
+            "",
+            "    # Assert",
+            "    raise NotImplementedError",
+            ""
+        ],
+        "description": "create new test function which docstring that raises NotImplementedError"
+    }
+}

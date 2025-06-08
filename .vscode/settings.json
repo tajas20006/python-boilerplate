@@ -1,0 +1,36 @@
+{
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit",
+        }
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "diffEditor.ignoreTrimWhitespace": true,
+        "editor.wordWrap": "on",
+        "editor.tabSize": 3
+    },
+    "editor.rulers": [
+        80,
+        88,
+        120
+    ]
+}
